@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contents*/
+
+
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+	#contents .wrap .joinbox { margin: 80px auto 150px; width: 800px; overflow: hidden; }
+	#contents .wrap .joinbox h2{ font-size: 40px; font-weight: normal; }
+	
+	#contents .wrap .joinbox .iconbox { margin: 50px 0 35px 44px; width: 708px; height: 128px; }
+	#contents .wrap .joinbox .icons li, #contents .wrap .joinbox .texts li { float: left; }
+	#contents .wrap .joinbox .icons { margin: 0 0 15px 0; }
+	#contents .wrap .joinbox .icons li:first-child { margin-left: 8px; }
+	#contents .wrap .joinbox .icons li:nth-child(2n) { width: 13px; height: 17px; margin: 39px 45px 0; }
+	
+	#contents .wrap .joinbox .texts li { font-size: 15px; color: #ccc; margin-top: 15px; text-align: center; }
+	#contents .wrap .joinbox .texts li:first-child { color: #000; }
+	#contents .wrap .joinbox .texts li:nth-child(2) { margin-left: 87px; }
+	#contents .wrap .joinbox .texts li:nth-child(3) { margin-left: 85px; }
+	#contents .wrap .joinbox .texts li:nth-child(4) { margin-left: 90px; }
+	
+	#contents .wrap .joinbox .line { width: 800px; height: 1px; background: #000; }
+
+	#contents .wrap .joinbox h3 { margin: 25px 0 ; font-size: 25px; font-weight: normal; float: left; }
+	/*여기까지가 공통적으로 필요한것들 */
+	
+	/*약관동의 박스*/
+	#contents .contract { width: 800px; height: 200px; padding: 20px 20px; box-sizing: border-box; border: 1px solid #aeaeae; overflow: auto; text-align: left; line-height: 1.6;  }
+
+		#contents .contract dl { margin-bottom: 20px; }
+		#contents .contract dt { margin-bottom: 8px; font-weight: bold; font-size: 13px; }
+		#contents .contract dd { margin-left: 5px; }
+
+
+
+	#contents .cont1 { margin-bottom: 13px; }
+#contents .cont_txt1 { margin-bottom: 53px; text-align: right; }
+#contents .cont_txt1 span { cursor:pointer; }
+
+ .cont_txt1 input[type="checkbox"]{display:none;} /*실제 체크박스 없애기*/
+
+ .cont_txt1 input[type="checkbox"] + label::before{ content:''; display: inline-block; width: 12px; height: 12px; vertical-align: middle; margin: -3px 0 0 5px; background: #bc162c; cursor: pointer; }/* 가짜 체크박스 만들기*/
+
+ .cont_txt1 input[type="checkbox"]:checked + label::before{ background: url("../images/checkedbox.jpg")no-repeat center; }/* 가짜 체크박스 체크했을 때 */
+ .cont_txt1 input[type="checkbox"] + label span{ cursor:pointer; }
+
+
+
+
+	#contents .cont2 { margin-bottom: 13px; }
+#contents .cont_txt2 { text-align: right; margin-bottom: 30px; }
+#contents .cont_txt2 span { cursor:pointer; }
+
+ .cont_txt2 input[type="checkbox"]{display:none;} /*실제 체크박스 없애기*/
+
+ .cont_txt2 input[type="checkbox"] + label::before{ content:''; display: inline-block; width: 12px; height: 12px; vertical-align: middle; margin: -3px 0 0 5px; background: #bc162c; cursor: pointer; }/* 가짜 체크박스 만들기*/
+
+ .cont_txt2 input[type="checkbox"]:checked + label::before{ background: url("../images/checkedbox.jpg")no-repeat center; }/* 가짜 체크박스 체크했을 때 */
+ .cont_txt2 input[type="checkbox"] + label span{ cursor:pointer; }
+
+
+
+#contents .cont_txt3 { text-align: right; margin-bottom: 12px; }
+#contents .cont_txt3 span { cursor:pointer; }
+
+ .cont_txt3 input[type="checkbox"]{display:none;} /*실제 체크박스 없애기*/
+
+ .cont_txt3 input[type="checkbox"] + label::before{ content:''; display: inline-block; width: 12px; height: 12px; vertical-align: middle; margin: -3px 0 0 5px; background: #bc162c; cursor: pointer; }/* 가짜 체크박스 만들기*/
+
+ .cont_txt3 input[type="checkbox"]:checked + label::before{ background: url("../images/checkedbox.jpg")no-repeat center; }/* 가짜 체크박스 체크했을 때 */
+ .cont_txt3 input[type="checkbox"] + label span{ cursor:pointer; }
+
+
+
+#contents .wrap .joinbox .agreebtn { margin: 40px 0 10px; padding-top: 9px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 250px; height: 37px; background: #c41230; transition: all 0.5s; }
+#contents .wrap .joinbox .agreebtn:hover { margin: 40px 0 10px; padding-top: 9px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 250px; height: 37px; background: #6b0a1a; }
+
+
+

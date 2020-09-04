@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden { display: none; }
+
+/*base*/
+
+body, p, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { font: normal 12px "NanumSquare", serif; }
+ul { list-style: none; }
+img { vertical-align: top; border: 0; }
+a { text-decoration: none; }
+
+::selection { background-color: #d33650; color: #fff; }
+
+#wrap { width: 100%; overflow: hidden; }
+
+/*header*/
+
+#header { width: 100%; height: 70px; position: relative; z-index:12;background:#fff;}
+#header .header_in { margin: 0 auto; width: 1100px; height: 70px; position: relative; }
+#header .header_in .nav { position: absolute; top: 28px; left: 30px; }
+#header .header_in .nav .pur { font-size: 15px; cursor: pointer; transition: all 0.5s; }
+#header .header_in .nav .pur:hover { color: #c41230; }
+#header .header_in .nav>li { float: left; margin-right: 35px; }
+#header .header_in .nav>li a { color: #000; font-size: 15px; transition: all 0.5s; }
+#header .header_in .nav>li a:hover { color: #c41230; }
+
+#header h1 img { width: 114px; height: 57px; position: absolute; top: 7px; left: 493px; }
+
+#header .header_in .login { position: absolute; top: 31px; right: 206px; }
+#header .header_in .login li { color: #979797; float: left; margin-right: 13px; }
+#header .header_in .login li:last-child { margin-right: 0; }
+#header .header_in .login li a { color: #979797; font-size: 12px; transition: color 0.5s; }
+#header .header_in .login li a:hover { color: #ddd; }
+
+#header .header_in .menu { width: 166px; height: 20px; position: absolute; top: 28px; right: 18px; }
+#header .header_in .menu .menu_1 .search1 { display: inline-block; margin-top: -20px; width: 97px; height: 19px; border: none; border-bottom: 1px solid #979797; }
+#header .header_in .menu .menu_1 .search0 { position: relative; top: 0; right: 17px; }
+#header .header_in .menu .menu_1 li { float: left; }
+/*#header .header_in .menu .menu_1 li:first-child { margin-right: 15px; }*/
+#header .header_in .menu .menu_1 li:nth-child(2) { margin: 6px 5px 0 15px; }
+#header .header_in .menu .menu_1 li:nth-child(3) { font-size: 15px; height: 20px; line-height: 20px; }
+
+/*구매정보 메뉴*/
+
+.purchase { text-align: center; width: 1200px; height: 700px; border: 1px solid gray; border-top: none; box-sizing: border-box; position: fixed; top: 42px; left: 0; display: none; position: absolute; background: rgba(255,255,255,1); z-index: 3; font-size: 14px; font-weight: bold; line-height: 2; }
+.purchase .purchase_in { margin: 0 auto; width: 1100px; }
+.purchase .purchase_in h3 { width: 1100px; text-align: left; font-size: 18px; margin: 10px 0 0 30px; }
+
+.purchase .purchase_in ul li { float: left; margin: 20px 10px 0 10px; font-weight: normal; overflow: hidden; transition: all 0.5s;}
+.purchase .purchase_in ul li a { transition: all 0.5s; color: #000; }
+.purchase .purchase_in ul li:hover a { text-decoration: underline; color: #c41230; }
+.purchase .purchase_in ul li a img { transition: all 0.3s; }
+.purchase .purchase_in ul li:hover a img { transform: scale(0.9); } 
+.purchase .purchase_in ul li p { margin-top: 7px; }
+.purchase .purchase_in ul li:nth-child(6) { margin-right: -10px; }
+.purchase .purchase_in img { height: 50px; }
+
+.purchase .pur_close { position: absolute; bottom: 20px; right: 30px; z-index: 5; cursor: pointer; }
+
+/* 전체메뉴버튼 */
+.close { position: absolute; top: 0; right: 5px; cursor: pointer; z-index: 5; }
+.menu_icon { position: absolute; top: 0; right: 5px; cursor: pointer; z-index: 6; }
+
+#header .menu_2 { width: 100%; height: 300px; border: 1px solid gray; box-sizing: border-box; position: fixed; top: 70px; left: 0; display: none;/**/ position: absolute; background: rgba(255,255,255,0.9); z-index: 6; font-size: 14px; font-weight: bold; line-height: 2; }
+#header .menu_2 .menu_2_in { margin: 0 auto; width: 1040px; overflow: hidden; }
+#header .menu_2 .menu_2_in ul { float: left; margin: 26px 150px 0 0; }
+#header .menu_2 .menu_2_in ul li:first-child { color: #777; font-size: 15px; margin-bottom: 7px; }
+#header .menu_2 .menu_2_in ul a { color: #8E8E8E; transition: all 0.5s; }
+#header .menu_2 .menu_2_in ul a:hover { color: #c41230; }
+#header .menu_2 .menu_2_in ul:last-child { margin-right: -150px; }
+
+.black_back { width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0,0,0,0.5); z-index: 4; display: none; }
+
+/*footer*/
+#footer { width: 100%; height: 425px; background: #1f1f1f; text-align: center; color: #999; }
+#footer .foot1 { margin: 0 auto; width: 1100px; height: 360px; position: relative; text-align: left;}
+#footer .foot1 li:first-child { color: #fff; font-weight: bold; line-height: 1; font-size: 16px; margin-bottom: 32px; }
+#footer .foot1 li { font-size: 14px; margin-bottom: 15px; }
+#footer .foot1 a { color: #999; transition: color 0.5s; }
+#footer .foot1 a:hover { color: #eee; }
+
+#footer .foot1 .foot_in1 { position: absolute; left: 95px; top: 32px; }
+#footer .foot1 .foot_in2 { position: absolute; left: 283px; top: 32px; }
+#footer .foot1 .foot_in3 { position: absolute; left: 485px; top: 32px; }
+#footer .foot1 .foot_in4 { position: absolute; left: 725px; top: 32px; }
+#footer .foot1 .foot_in5 { position: absolute; left: 915px; top: 32px; }
+
+#footer .foot2 { margin: 0 auto; width: 1100px; height: 65px; position: relative; }
+#footer .foot2 .foot2_txt1 { margin-bottom: 6px; }
+#footer .foot2 .foot2_txt1 a { color: #999; transition: color 0.5s; }
+#footer .foot2 .foot2_txt1 a:hover { color: #eee; }
+#footer .foot2 h1 img { width: 78px; height: 39px; position: absolute; left: 30px; }
+
+.top { position: relative; position: fixed; bottom: 30px; right: 30px; display: none; z-index: 10; }

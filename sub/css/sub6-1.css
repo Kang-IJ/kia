@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*공동으로 들어가는 것들*/
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+
+#contents .wrap .contwrap { margin: 0 auto; width: 1100px; overflow: hidden; }
+
+#contents .wrap .contwrap .list { float: left; margin: 34px 0 32px 0; color: #000; font-size: 25px; margin-left: 99px; }
+
+#contents .wrap .contwrap .news { border-top: 1px solid #e3e6e8; overflow: hidden; text-align: left; color: #000; width: 880px; margin-bottom: 150px; padding: 50px 0 0 50px; }
+
+#contents .wrap .contwrap .news img { margin: 0 auto; }
+
+#contents .wrap .contwrap .news .txt1 { font-size: 30px; font-weight: bold; }
+#contents .wrap .contwrap .news .txt2 { font-size: 20px; color: #888; margin: 15px 0 25px;  }
+#contents .wrap .contwrap .news .txt3 { font-size: 15px; margin: 50px 0 100px; }
+
+#contents .wrap .contwrap .news .txt4 { font-size: 15px; }
+#contents .wrap .contwrap .news .txt4 img { margin: 7px 7px 0 0; }
+#contents .wrap .contwrap .news .txt4 .txt_1 { margin-left: 100px; }
+#contents .wrap .contwrap .news .txt4 .txt_2 { float: right; margin-right: 5px; }
+#contents .wrap .contwrap .news .txt4 a { color: #000; transition: color 0.3s; }
+#contents .wrap .contwrap .news .txt4:hover a { color: #c41230; }
+#contents .wrap .contwrap .news .btn { text-align: center; margin: 50px auto 0; font-size: 15px;display: block; color: #fff; width: 120px; height: 37px; background: #c41230; line-height: 35px; box-sizing: border-box; transition: all 0.5s; }
+#contents .wrap .contwrap .news .btn:hover { color: #fff; background: #6b0a1a; }
+
+#contents .wrap .contwrap .news .line { background: #e3e6e8; width: 880px; height: 1px; margin: 15px 0; }
+
+
+
+
+
+
+
+

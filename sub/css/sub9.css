@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*공동으로 들어가는 것들*/
+.wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+
+.wrap .contwrap { margin: 0 auto; width: 1100px; overflow: hidden; position: relative; }
+
+.wrap .contwrap .list { width: 100%; text-align: left; margin: 34px 0 32px 0; color: #000; font-size: 25px; margin-left: 99px; display:block; }
+
+#compare { text-align: left; border-top: 1px solid #e3e6e8; width: 100%; height: 700px; }
+
+#compare>div { float: left; margin-top: 100px; }
+
+/*cars*/
+#cars { text-align: center; width: 530px; overflow: hidden; padding-top: 18px; position: relative; margin-right: 40px; }
+#cars ul img { height: 130px; }
+#cars a { color: #000; font-size: 15px; }
+#cars .cars_txt { padding-top: 50px; line-height: 2; }
+#cars .cars_txt .sp1 { font-size: 35px; font-weight: bold; }
+#cars .cars_txt .sp2 { font-size: 20px; font-weight: bold; }
+#cars .cars_txt .sp3 { color: #c41230; line-height: 6; }
+#cars ul li .cars_txt .sp4 { transition: all 0.5s; }
+#cars ul li:hover .cars_txt .sp4 { color: #c41230; }
+
+#cars .prev_btn img { height: 50px; }
+#cars .next_btn img { height: 50px; }
+ 
+#cars .prev_btn { position: absolute; top: 50%; left: 0; transform: translateY(-50%); }
+#cars .next_btn {  position: absolute; top: 50%; right: 0; transform: translateY(-50%);  }
+
+
+/*cars2*/
+#cars2 { text-align: center; width: 530px; overflow: hidden; padding-top: 18px; position: relative; }
+#cars2 ul img { height: 130px; }
+#cars2 a { color: #000; font-size: 15px; }
+#cars2 .cars_txt { padding-top: 50px; line-height: 2; }
+#cars2 .cars_txt .sp1 { font-size: 35px; font-weight: bold; }
+#cars2 .cars_txt .sp2 { font-size: 20px; font-weight: bold; }
+#cars2 .cars_txt .sp3 { color: #c41230; line-height: 6; }
+#cars2 ul li .cars_txt .sp4 { transition: all 0.5s; }
+#cars2 ul li:hover .cars_txt .sp4 { color: #c41230; }
+
+#cars2 .prev_btn2 img { height: 50px; }
+#cars2 .next_btn2 img { height: 50px; }
+
+#cars2 .prev_btn2 { position: absolute; top: 50%; left: 0; transform: translateY(-50%); }
+#cars2 .next_btn2 { position: absolute; top: 50%; right: 0; transform: translateY(-50%);  }
+
+
+
+.all { margin-top: 50px; text-align: center; font-size: 15px; color: #fff; line-height: 0.5; }
+.all a { font-size: 15px; color: #fff; background: #c41230; transition: all 0.5s; width: 149px; height: 39px; display: inline-block; line-height: 39px; }
+.all a:hover { background: #6b0a1a; }
+
+
+
+
+
+
+
+
+
+
+
+

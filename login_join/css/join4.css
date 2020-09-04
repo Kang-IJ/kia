@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contents*/
+
+
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+	#contents .wrap .joinbox { margin: 80px auto 150px; width: 800px; overflow: hidden; }
+	#contents .wrap .joinbox h2{ font-size: 40px; font-weight: normal; }
+	
+	#contents .wrap .joinbox .iconbox { margin: 50px 0 35px 44px; width: 708px; height: 128px; }
+	#contents .wrap .joinbox .icons li, #contents .wrap .joinbox .texts li { float: left; }
+	#contents .wrap .joinbox .icons { margin: 0 0 15px 0; }
+	#contents .wrap .joinbox .icons li:first-child { margin-left: 8px; }
+	#contents .wrap .joinbox .icons li:nth-child(2n) { width: 13px; height: 17px; margin: 39px 45px 0; }
+	
+	#contents .wrap .joinbox .texts li { font-size: 15px; color: #ccc; margin-top: 15px; text-align: center; }
+	#contents .wrap .joinbox .texts li:first-child { }
+	#contents .wrap .joinbox .texts li:nth-child(2) { margin-left: 87px; }
+	#contents .wrap .joinbox .texts li:nth-child(3) { margin-left: 85px; }
+	#contents .wrap .joinbox .texts li:nth-child(4) { margin-left: 90px; color: #000; }
+	
+	#contents .wrap .joinbox .line { width: 800px; height: 1px; background: #000; }
+
+	#contents .wrap .joinbox h3 { margin: 25px 0 ; font-size: 25px; font-weight: normal; float: left; text-align: left; margin-bottom: 35px; }
+	
+	#contents .wrap .joinbox .line2 { margin-top: 92px; width: 800px; height: 1px; background: #e3e6e8; }
+
+	/*여기까지가 공통적으로 필요한것들 */
+	
+	
+	#contents .wrap .joinbox .completebox { line-height: 1; margin: 50px auto 0; width: 554px; overflow: hidden; }
+	#contents .wrap .joinbox .completebox 
+	
+	
+	
+	
+	.fin_list li:first-child { font-size: 30px; }
+	.fin_list li:nth-child(2) { font-size: 15px; margin: 25px 0 45px; }
+	.fin_list li:nth-child(4) { font-size: 14px; color: #aeaeae; margin: 45px 0 15px; }
+
+	.fin_list span { color: #c41230; }
+
+		.mainbtn { margin: 40px 0 10px 72px; padding-top: 12px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 180px; height: 37px; background: #3d4657; transition: all 0.5s; float: left; }
+		.mainbtn:hover { margin: 40px 0 10px 72px; padding-top: 12px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 180px; height: 37px; background: #161b24; }
+
+		.loginbtn { margin: 40px 72px 10px 0; padding-top: 12px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 180px; height: 37px; background: #c41230; transition: all 0.5s; float: right; }
+		.loginbtn:hover { margin: 40px 72px 10px 0; padding-top: 12px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 180px; height: 37px; background: #6b0a1a; }

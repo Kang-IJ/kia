@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*공동으로 들어가는 것들*/
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+
+#contents .wrap .contwrap { margin: 0 auto; width: 1100px; overflow: hidden; }
+
+#contents .wrap .contwrap .list { float: left; margin: 34px 0 32px 0; color: #000; font-size: 25px; margin-left: 99px; }
+
+#contents .wrap .contwrap .special { text-align: left; border-top: 1px solid #e3e6e8; width: 100%; overflow: hidden;  }
+
+
+#contents .wrap .contwrap .special ul { padding: 50px 0 0 50px; }
+#contents .wrap .contwrap .special ul li { float: left; margin-bottom: 70px; position: relative; }
+#contents .wrap .contwrap .special ul li a { color: #000; }
+#contents .wrap .contwrap .special ul li:first-child, li:nth-child(3), li:nth-child(5) { margin-right: 100px; }
+#contents .wrap .contwrap .special ul li:nth-child(5), li:nth-child(6) { margin-bottom: 150px; }
+
+#contents .wrap .contwrap .special ul li .txt1 { margin: 22px 0; font-size: 25px; font-weight: bold; }
+#contents .wrap .contwrap .special ul li .txt2 { float: right; margin-top:-56px;font-size: 20px; }
+#contents .wrap .contwrap .special ul li .txt2 span { font-weight: bold; font-size: 25px; }
+#contents .wrap .contwrap .special ul li .txt3 { font-size: 16px; }
+#contents .wrap .contwrap .special ul li:hover .txt3 { text-decoration: underline; }
+#contents .wrap .contwrap .special ul li .txt3 span { color: #c41230; }
+
+.cap { position: absolute; top: 0; left: 0; background: rgba(0,0,0,0.5); width: 450px; height: 264px; transition: all 0.3s; opacity: 0; }
+#contents .wrap .contwrap .special ul li:hover .cap { opacity: 1; }
+.cap .h { width: 60px; height: 1px; background: rgba(255,255,255,0.5); position: absolute; top: 50%; left: -50%; margin-left: -30px; transition: all 0.3s; }
+#contents .wrap .contwrap .special ul li:hover .cap .h { top: 50%; left: 50%; }
+.cap .v { width: 1px; height: 60px; background: rgba(255,255,255,0.5); position: absolute; top: -50%; left: 50%; margin-top: -30px; transition: all 0.3s; }
+#contents .wrap .contwrap .special ul li:hover .cap .v { top: 50%; left: 50%; }
+
+
+
+
+
+
+
+
+
+
+
+
+

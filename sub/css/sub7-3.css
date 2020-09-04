@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contents*/
+
+
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+#contents .wrap .contwrap { margin: 0 auto; width: 1100px; overflow: hidden; text-align: center; }
+
+#contents .wrap .contwrap .list { float: left; margin: 34px 0 32px 0; color: #000; font-size: 25px; margin-left: 99px; }
+		
+#contents .wrap .contwrap .test { border-top: 1px solid #e3e6e8; overflow: hidden; text-align: center; color: #000; width: 1100px; margin-bottom: 150px; padding: 50px 0 50px 0; }
+	#contents .wrap .contwrap .test .txt1 { font-size: 15px; }
+	#contents .wrap .contwrap .line { width: 1100px; height: 1px; background: #000; }
+
+	/*여기까지가 공통적으로 필요한것들 */
+	
+	.testwrap { margin: 0 auto; width: 460px; overflow: hidden; text-align: center; }
+	#contents .wrap .contwrap .test .testwrap .image { width: 460px; }
+	#contents .wrap .contwrap .test .testwrap img { margin: 70px auto 60px; }
+
+#contents .wrap .contwrap .combtn { padding-top: 9px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 180px; height: 37px; background: #c41230; transition: all 0.5s; }
+#contents .wrap .contwrap .combtn:hover { background: #6b0a1a; }
+
+
+
+

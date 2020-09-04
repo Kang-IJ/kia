@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contents*/
+
+
+
+#contents .background { width: 1920px; height: 900px; position: relative; left: 50%; margin-left: -960px; background: url(../images/login.jpg); padding-top: 100px; box-sizing: border-box; }
+
+#contents .loginbox { padding: 40px; box-sizing: border-box; }
+
+#contents .background .loginbox { margin: 0 auto; width: 400px; height: 555px; background: #fff; }
+#contents h1 { margin: 0 0 25px 0; font: normal 25px "맑은 고딕", Malgun Gothic, serif; }
+#contents .line { margin: 0 0 40px 0; width: 71px; height: 1px; background: #000; }
+
+
+#emailarea { margin: 15px auto 25px; width: 320px; height: 30px; border: none; border-bottom: 1px solid #333; }
+
+#pwarea { margin: 15px auto 20px; width: 320px; height: 30px; border: none; border-bottom: 1px solid #333; }
+
+.idsea { margin-bottom: 15px; }
+
+
+
+#contents .background .loginbox .loginbtn { margin: 40px 0 10px; padding-top: 6px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 320px; height: 30px; background: linear-gradient( to bottom, #c41230, #980f27 ); transition: background 0.5s; }
+#contents .background .loginbox .loginbtn:hover { margin: 40px 0 10px; padding-top: 6px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 320px; height: 30px; background: #6b0a1a; }
+
+#contents .idpwsearch { color: #a7a7a7; }
+.idsearch { color: #a7a7a7; transition: color 0.5s; }
+.idsearch:hover { color: #d3d3d3; }
+.pwsearch { color: #a7a7a7; transition: color 0.5s; }
+.pwsearch:hover { color: #d3d3d3; }
+
+ .box1 input[type="checkbox"]{display:none;} /*실제 체크박스 없애기*/
+
+ .box1 input[type="checkbox"] + label::before{ content:''; display: inline-block; width: 12px; height: 12px; vertical-align: middle; margin: -3px 5px 0 0; background: #bc162c; cursor: pointer; }/* 가짜 체크박스 만들기*/
+ .box1 input[type="checkbox"]:checked + label::before{ background:url(../images/checkedbox.jpg) no-repeat center;}/* 가짜 체크박스 체크했을 때 */
+ .box1 input[type="checkbox"] + label span{ cursor:pointer; }
+
+
+
+#contents .register { margin-top: 10px; padding-top: 6px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 320px; height: 30px; background: #000; transition: background 0.5s; }
+#contents .register:hover { margin-top: 10px; padding-top: 6px; box-sizing: border-box; font-size: 13px; text-align: center; color: #000; display: inline-block; width: 320px; height: 30px; background: #fff; border: 1px solid #000; }

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*공동으로 들어가는 것들*/
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+
+#contents .wrap .contwrap { margin: 0 auto; width: 1100px; overflow: hidden; text-align: left; }
+
+#contents .wrap .contwrap h3 { font-weight: normal; font-size: 25px; margin: 28px 0 50px 60px; }
+
+#contents .wrap .contwrap .list ul { width: 100%; background: pink; }
+#contents .wrap .contwrap .list ul li { float: left; margin:  34px 0 32px; }
+
+#contents .wrap .contwrap .list ul li a { color: #000; font-size: 25px; margin-right: 60px; transition: color 0.5s; }
+#contents .wrap .contwrap .list ul li a:hover { color: #c41320; }
+#contents .wrap .contwrap .list ul li:first-child { margin-left: 112px; }
+#contents .wrap .contwrap .line01 { margin-top: 99px; background: #f0f0f0; width: 1100px; height: 1px; }
+
+#contents .wrap .contwrap .main h2 { font-size: 40px; font-weight: bold; line-height:1; float: left; margin: 28px 0 25px 60px; }
+#contents .wrap .contwrap .main p { margin: 0 0 30px 60px; font-size: 17px; font-weight: bold; width: 100%; float: left; }
+#contents .wrap .contwrap .main .img { text-align: center; position: relative; }
+#contents .wrap .contwrap .main .img .carimg1 { height: 200px; transition: all 0.5s; }
+#contents .wrap .contwrap .main .img .carimg2 { height: 210px; transition: all 0.5s; position: absolute; top: 140px; left: 230px; opacity: 0; }
+#contents .wrap .contwrap .main .img:hover .carimg1 { opacity: 0; }
+#contents .wrap .contwrap .main .img:hover .carimg2 { opacity: 1; } 
+#contents .wrap .contwrap .line02 { margin-top: 100px; background: #f0f0f0; width: 1100px; height: 1px; }
+
+#contents .wrap .contwrap .feature ul { margin-left: 60px; width: 980px; }
+#contents .wrap .contwrap .feature ul li { font-size: 16px; margin-bottom: 20px; }
+#contents .wrap .contwrap .feature ul li span { font-weight: bold; }
+
+#contents .wrap .contwrap .carcolor img { margin-left: 11px; }
+
+#contents .wrap .contwrap .engine table { font-size: 18px; margin: 0 auto; }
+#contents .wrap .contwrap .engine th { width: 125px;height: 25px; }
+#contents .wrap .contwrap .engine td { width: 250px; height: 25px; }
+#contents .wrap .contwrap .engine .size { width: 85px; }
+
+#contents .wrap .contwrap .price table { font-size: 25px; margin: 0 auto; }
+#contents .wrap .contwrap .price th { width: 730px; }
+#contents .wrap .contwrap .price td { width: 250px; }
+
+#contents .wrap .contwrap .catalogue{ margin: 0 auto 150px; text-align: center; width: 100%; overflow: hidden;  }
+#contents .wrap .contwrap .catalogue h3 { text-align: left; }
+#contents .wrap .contwrap .catalogue>div { transform: translateX(64%); float: left; width: 300px; height: 300px; cursor: pointer; }
+
+
+
+#contents .wrap .contwrap .catalogue .cat1 { background: #bc162c; margin-right: 130px; }
+#contents .wrap .contwrap .catalogue .cat1 img { margin: 75px auto 43px; }
+#contents .wrap .contwrap .catalogue .cat1 p { font-size: 23px; color: #fff; }
+#contents .wrap .contwrap .catalogue>div .ca{ display:block; }
+
+#contents .wrap .contwrap .catalogue .cat2 { background: #3d4657; }
+#contents .wrap .contwrap .catalogue .cat2 img { margin: 75px auto 35px; width: 70px; }
+#contents .wrap .contwrap .catalogue .cat2 p { font-size: 23px; color: #fff; }
+
+#contents .wrap .contwrap .catalogue a { color: #fff; }
+#contents .wrap .contwrap .catalogue a:hover p { text-decoration: underline; color: #fff; }
+#contents .wrap .contwrap .catalogue>div:hover { text-decoration: underline #fff; }
+
+

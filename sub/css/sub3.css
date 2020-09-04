@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*공동으로 들어가는 것들*/
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; padding-bottom: 50px; box-sizing: border-box; border-top: 1px solid #f0f0f0; text-align: center; }
+
+#contents .wrap .contwrap { margin: 0 auto; width: 1100px; overflow: hidden; }
+
+#contents .wrap .contwrap .list ul li { float: left; margin-bottom: 32px; }
+
+.list { margin-top: 34px; }
+#contents .wrap .contwrap .list ul li a { color: #000; font-size: 25px; margin-right: 60px; transition: color 0.5s; }
+#contents .wrap .contwrap .list ul li a:hover { color: #c41320; }
+#contents .wrap .contwrap .list ul li:first-child { margin-left: 99px; }
+
+#contents .wrap .contwrap .faq h2 { font-size: 40px; font-weight: bold; line-height:1; float: left; margin: 28px 0 46px 99px; width: 100%; }
+
+#contents .wrap .contwrap .faq { text-align: left; border-top: 1px solid #e3e6e8; width: 100%; overflow: hidden; }
+#contents .wrap .contwrap .faq .txt1 { margin: 0 0 28px 99px; float: left; font-size: 15px; width: 1100px; color: #aaa; }
+
+
+#contents .wrap .contwrap .faq .list2 { margin-bottom:38px; }
+#contents .wrap .contwrap .faq .list2 li a { float: left; width: 220px; height: 50px; border: 1px solid #000; box-sizing: border-box; color: #000; text-align: center; padding-top: 14px; font-size: 15px; font-weight: bold; }
+
+#contents .wrap .contwrap .faq .list2 li.active a { color: #fff; background: #000; }
+
+#contents .wrap .contwrap .faq .questions { width: 1100px; overflow: hidden;  margin-top: 280px; }
+
+#contents .wrap .contwrap .faq .list3 { border-top: 2px solid #ccc; margin-bottom: 60px; }
+#contents .wrap .contwrap .faq .list3 .faq_txt {  margin: 20px 0 20px 40px;  font-size: 15px; }
+#contents .wrap .contwrap .faq .list3>li { width: 1100px;  border-bottom: 1px solid #ccc; box-sizing: border-box; }
+
+
+#contents .wrap .contwrap .faq .list3 .ft2 { margin: 0 100px 0 40px; }
+#contents .wrap .contwrap .faq .list3 img { margin: 4px 40px 0 0; float: right; }
+#contents .wrap .contwrap .faq .list3 a { color: #000; }
+#contents .wrap .contwrap .faq .list3 li .ft3 { transition: color 0.3s; }
+#contents .wrap .contwrap .faq .list3 li:hover .ft3 { color: #c41230; }
+
+
+/*pagination*/
+.move_wrap { margin: 0 0 150px 420px; }
+.move_wrap li { float: left; }
+
+.move_wrap img { margin-top: 2px; }
+
+.move { font-size: 20px; font-weight: bold; float: left; }
+.move li { float: left; }
+
+.move li a { color: #000; margin-left: 30px; }
+.move li:last-child { margin-right: 30px; }
+.move li.active2 a  { color: #c41230; }
+
+/*고객센터 전화번호*/
+#contents .wrap .contwrap .customer h2 { font-size: 40px; font-weight: bold; line-height:1; float: left; width: 100%; margin: 100px 0 92px 0; text-align: left; }
+
+#contents .wrap .contwrap .customer { margin: 0 0 150px 60px; }
+#contents .wrap .contwrap .customer li { width: 490px; height: 120px; border-top: 1px solid #ccc; float: left; }
+#contents .wrap .contwrap .customer li p { float: left; font-size: 15px; text-align: left; line-height: 2.5; margin: 23px 0 0 50px; }
+#contents .wrap .contwrap .customer li img { float: left; margin: 14px 0 0 20px;}
+#contents .wrap .contwrap .customer .line { border-bottom: 1px solid #ccc; }
+#contents .wrap .contwrap .customer .color { color: #c41230; }
+#contents .wrap .contwrap .customer a { color: #000; transition: color 0.5s; }
+#contents .wrap .contwrap .customer a:hover { color: #c41320; }
+
+
+/*각각 맞는 마진*/
+#contents .wrap .contwrap .faq .tab_cont div:first-child .list3 li:first-child .ft2, #contents .wrap .contwrap .faq .tab_cont div:first-child .list3 li:nth-child(5) .ft2 { margin: 0 51px 0 40px; }
+#contents .wrap .contwrap .faq .tab_cont div:first-child .list3 li:nth-child(6) .ft2 { margin: 0 71px 0 40px; }
+
+#contents .wrap .contwrap .faq .tab_cont div:nth-child(2) .list3 li .ft2 { margin: 0 51px 0 40px; }
+#contents .wrap .contwrap .faq .tab_cont div:nth-child(4) .list3 li .ft2 { margin: 0 71px 0 40px; }
+
+/*질문 답변*/
+.sub { box-sizing: border-box; font-size: 14px; display: none;  }
+.sub li { padding: 20px 0 30px 98px; }
+.sub li span { width: 904px; display: block; }
+
+
+
+
+
+
+
+

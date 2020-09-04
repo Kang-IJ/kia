@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*visual*/
+#visual { width: 1920px; height: 900px; position: relative; left: 50%; margin-left: -960px; }
+
+/*visual slide*/
+ .jssorb05 { position: absolute; }
+/* size of bullet elment */
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av { position: absolute; width: 16px; height: 16px; background: url('../img/b05.png') no-repeat; overflow: hidden; cursor: pointer; }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+		
+/* size of arrow element */
+.jssora22l, .jssora22r { display: block; position: absolute; width: 40px; height: 58px; cursor: pointer; background: url('../img/a22.png') center center no-repeat; overflow: hidden; }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+
+.stingera { text-align: center; width: 170px; height: 40px; background: #c41230; color: #fff; display: block; line-height: 38px; transition: all 0.5s; }
+.stingera:hover { background: #6b0a1a; }
+
+
+/*contents*/
+/*차량 둘러보기*/
+#contents #cont1 h2 { text-align: center; font-size: 40px; line-height: 1; margin-bottom: 70px; }
+#cont1{ margin: 200px auto; position:relative; width: 1200px;  }
+#cont1 h3{margin-bottom:10px;}
+#cars{margin: 0 auto; text-align:center;
+	padding-top:18px;
+}
+
+#cars ul img { height: 110px; }
+#cars a { color: #000; font-size: 15px; }
+#cars .cars_txt{
+	padding-top:50px;
+	line-height: 2;
+}
+#cars .cars_txt .sp1 { font-size: 35px; font-weight: bold; }
+#cars .cars_txt .sp2 { font-size: 20px; font-weight: bold; }
+#cars .cars_txt .sp3 { color: #c41230; line-height: 6; }
+#cars ul li .cars_txt .sp4 { transition: all 0.5s; }
+#cars ul li:hover .cars_txt .sp4 { color: #c41230; }
+
+#cars .prev_btn{
+	position: absolute; top: 200px; left:-50px;
+}
+#cars .next_btn{
+	position: absolute; top: 200px; right: -50px;
+}
+
+#cars .all { margin: 50px auto 0; text-align: center; font-size: 15px; color: #fff; line-height: 0.5; }
+#cars .all a { font-size: 15px; color: #fff; background: #c41230; transition: all 0.5s; width: 149px; height: 39px; display: inline-block; line-height: 39px; }
+#cars .all a:hover { background: #6b0a1a; }
+
+/*이달의 구매 혜택*/
+
+#contents .cont2 { margin: 0 auto; width: 100%; height: 350px; background:url(../images/special_offer1.jpg) no-repeat center /*#99152d*/ ; text-align: center; padding-top: 48px; box-sizing: border-box; }
+#contents .cont2 h2 { color: #fff; font-size: 50px; line-height:0.9; }
+#contents .cont2 .detail { margin-top: 22px; }
+#contents .cont2 .detail a { color: #fff; border: 1px solid #fff; transition: all 0.5s; width: 100px; height: 32px; display: inline-block; line-height: 32px; }
+#contents .cont2 .detail a:hover { color: #c41230; border: 1px solid #b9162b; background: #fff; } 
+
+/*차량 비교*/
+#contents .cont3 { margin: 250px auto; width: 1100px; height: 350px; }
+#contents .cont3 .cont3-1 { float: left; height: 350px; width: 406px; text-align: center; }
+#contents .cont3 .cont3-1 h2 { margin-top: 67px; font-size: 50px; }
+#contents .cont3 .cont3-1 .cont3_txt1 { margin: 45px auto; font-size: 23px; line-height: 1; }
+#contents .cont3 .cont3-1 .cont3_txt2 { font-size: 23px; line-height: 1; }
+#contents .cont3 .cont3-1 a { color: #000; transition: color 0.5s; }
+#contents .cont3 .cont3-1 a:hover { color: #c41230; }
+#contents .cont3 .cont3-1 span { font-size: 18px; font-weight: bold; color: #bb162b; }
+#contents .cont3 .cont3-2 img { float: right; margin-right: 50px; }
+
+/*기아 뉴스*/
+#contents #cont4 h2 { text-align: center; font-size: 40px; line-height: 1; margin-bottom: 35px; }
+#cont4{ width: 100%; height: 496px; background: url(../images/news.png) no-repeat; text-align: center; padding-top: 41px; box-sizing: border-box;
+	margin: 150px 0; overflow:hidden;
+}
+#cont4 a { color: #000; }
+#cont4 h3{margin-bottom:10px;}
+#cont4-1{ margin: 0 auto; text-align:center;
+	width: 1050px; height: 336px;
+	box-sizing: border-box; 
+	background: #fff;
+	position:relative;
+}
+#cont4-1 ul img { height: 130px; }
+#cont4-1 a { color: #000; font-size: 15px; }
+
+#cont4-1 .cont4_txt{
+	padding-top:50px;
+	line-height: 1;
+}
+#cont4-1 .cont4_txt .sp1 { font-size: 17px; color: #888; font-weight: bold; display: block; }
+#cont4-1 .cont4_txt .sp2 { font-size: 30px; font-weight: bold; display: block; margin: 25px auto 25px; }
+#cont4-1 .cont4_txt .sp3 { color: #c41230; }
+#cont4-1 ul li .cont4_txt .sp4 { transition: all 0.5s; }
+#cont4-1 ul li:hover .cont4_txt .sp4 { color: #c41230; }
+
+#cont4-1 .prev_btn{
+	position: absolute; top: 150px; left:50px;
+}
+#cont4-1 .next_btn{
+	position: absolute; top: 150px; right: 50px;
+}
+
+#cont4-1 .all { margin-top: 30px; text-align: center; font-size: 15px; color: #fff; line-height: 0.5; }
+#cont4-1 .all a { font-size: 15px; color: #fff; background: #c41230; transition: all 0.5s; width: 149px; height: 39px; display: inline-block; line-height: 39px; }
+#cont4-1 .all a:hover { background: #6b0a1a; }
+
+/*가까운 영업점 찾기*/
+#contents .cont5 { text-align: center; margin: 250px auto; width: 100%; height: 400px; background:url(../images/localdealer.jpg) no-repeat center center fixed; background-size: cover; padding-top: 117px; box-sizing: border-box; }
+#contents .cont5 h2 { font-size: 50px; color: #fff; line-height: 1; }
+#contents .cont5 .cont5_form { margin: 40px auto 0; background: #fff; width: 300px; height: 35px; box-sizing: border-box; border: 1px solid #a0a0a0; }
+#contents .cont5 .local { float: right; margin-right: 4px; }
+#contents .cont5 .cont5_txt1 { position: relative; top: -30px; left: 130px; }
+
+
+
+/*고객 지원 센터, 시승신청, 카탈로그*/
+#contents .cont6 { margin: 0 auto 120px; width: 1101px; height: 367px; text-align: center; }
+#contents .cont6 a { color: #fff; }
+#contents .cont6 a:hover p { text-decoration: underline; color: #fff; }
+#contents .cont6>div { cursor: pointer; }
+#contents .cont6>div:hover { text-decoration: underline #fff; }
+
+
+#contents .cont6 .cont6-1 { float: left; width: 367px; height: 367px; background: #c41230; }
+#contents .cont6 .cont6-1 img { margin: 100px auto 43px; }
+#contents .cont6 .cont6-1 p { font-size: 23px; color: #fff; }
+
+#contents .cont6 .cont6-2 { float: left; width: 367px; height: 367px; background: #3d4657; }
+#contents .cont6 .cont6-2 img { margin: 105px auto 40px; }
+#contents .cont6 .cont6-2 p { font-size: 23px; color: #fff; }
+
+#contents .cont6 .cont6-3 { float: left; width: 367px; height: 367px; background: #aeaeae;/* 1f1f1f */ }
+#contents .cont6 .cont6-3 img { margin: 105px auto 40px; }
+#contents .cont6 .cont6-3 p { font-size: 23px; color: #fff; }
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contents*/
+
+
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+	#contents .wrap .joinbox { margin: 80px auto 150px; width: 800px; overflow: hidden; }
+	#contents .wrap .joinbox h2{ font-size: 40px; font-weight: normal; }
+	
+	#contents .wrap .joinbox .iconbox { margin: 50px 0 35px 44px; width: 708px; height: 128px; }
+	#contents .wrap .joinbox .icons li, #contents .wrap .joinbox .texts li { float: left; }
+	#contents .wrap .joinbox .icons { margin: 0 0 15px 0; }
+	#contents .wrap .joinbox .icons li:first-child { margin-left: 8px; }
+	#contents .wrap .joinbox .icons li:nth-child(2n) { width: 13px; height: 17px; margin: 39px 45px 0; }
+	
+	#contents .wrap .joinbox .texts li { font-size: 15px; color: #ccc; margin-top: 15px; text-align: center; }
+	#contents .wrap .joinbox .texts li:first-child { }
+	#contents .wrap .joinbox .texts li:nth-child(2) { margin-left: 87px; color: #000; }
+	#contents .wrap .joinbox .texts li:nth-child(3) { margin-left: 85px; }
+	#contents .wrap .joinbox .texts li:nth-child(4) { margin-left: 90px; }
+	
+	#contents .wrap .joinbox .line { width: 800px; height: 1px; background: #000; }
+
+	#contents .wrap .joinbox h3 { margin: 25px 0 ; font-size: 25px; font-weight: normal; float: left; text-align: left; margin-bottom: 35px; }
+	
+	
+	/*여기까지가 공통적으로 필요한것들 */
+	
+	
+	#contents .wrap .joinbox .verifybox { width: 600px; margin: 0 auto; }
+	#contents .wrap .joinbox .verifybox h4 { margin-top: 87px; margin-bottom: 85px; font-size: 15px; font-weight: normal; }
+	
+	.verwrap { margin: 0 auto; width: 460px; height: 177px; }
+	.cellbox { width: 180px; height: 171px; float: left; }
+	.ipinbox { margin-top: 14px; width: 180px; height: 165px; float: right; }
+
+	.verifybox_txt { overflow: hidden; width: 600px; color: #aaa; margin-top: 50px; }
+
+
+#contents .wrap .joinbox .cellbtn { margin: 40px 0 10px; padding-top: 9px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 180px; height: 37px; background: #c41230; transition: all 0.5s; }
+#contents .wrap .joinbox .cellbtn:hover { margin: 40px 0 10px; padding-top: 9px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 180px; height: 37px; background: #6b0a1a; }
+
+#contents .wrap .joinbox .ipinbtn { margin: 40px 0 10px; padding-top: 9px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 180px; height: 37px; background: #c41230; transition: all 0.5s; }
+#contents .wrap .joinbox .ipinbtn:hover { margin: 40px 0 10px; padding-top: 9px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 180px; height: 37px; background: #6b0a1a; }
+
+
+

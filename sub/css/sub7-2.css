@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contents*/
+
+
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+#contents .wrap .contwrap { margin: 0 auto; width: 1100px; overflow: hidden; text-align: center; }
+
+#contents .wrap .contwrap .list { float: left; margin: 34px 0 32px 0; color: #000; font-size: 25px; margin-left: 99px; }
+		
+	.verifybox { clear:both; margin:0 auto; width: 800px; }
+		
+.division { text-align: center; width: 100%; height: 90px; display: block; }
+.division .title { margin-left: 108px; }
+		
+	#contents .wrap .line { width: 1100px; height: 1px; background: #e3e6e8; position: relative; left: -150px; }
+
+	#contents .wrap h3 { margin: 25px 0; font-size: 25px; font-weight: normal; float: left; text-align: left; margin-bottom: 35px; }
+	
+	
+	/*여기까지가 공통적으로 필요한것들 */
+	
+	
+	#contents .txt1 { margin-top: 60px; float: right; }
+span.star { color: #c41230; font-weight: bold; font-size: 15px; position: relative; top: 4px; }
+
+table { font-size: 15px; }
+#contents .t1 { width: 800px; border-collapse: collapse; }
+th, td { border: none; text-align: left; border-top: 1px solid #e3e6e8; border-bottom: 1px solid #e3e6e8; }
+th, td { padding: 7px; box-sizing: border-box; }
+th { width: 190px; }
+
+
+.pwcaution { font-size: 12px; color: #aaa; }
+
+#contents .s1 { width: 200px; height: 30px; border: 1px solid #e3e6e8; padding: 3px 4px 2px; box-sizing: border-box; font-size: 12px; margin-right: 10px; }
+#contents .s-1 { width: 500px; height: 30px; border: 1px solid #e3e6e8; padding: 3px 4px 2px; box-sizing: border-box; font-size: 12px; margin-right: 10px; }
+
+/*중복검사 버튼*/
+#contents .first-btn { width: 60px; height: 24px; background: #aeaeae; color: #fff; font-size: 12px; border: none; cursor: pointer; margin: 0 5px 0 -5px; }
+
+
+#contents .nth5 p { line-height: 2.5; }
+#contents .nth5 label { width: 80px; display: inline-block; }
+#contents .nth5 label.nth5-txt1 { padding-left: 11px; box-sizing: border-box; }
+#contents .sel_s1 { width: 70px; height: 24px; border: 1px solid #e3e6e8; box-sizing: border-box; font-size: 12px; }
+#contents .s2 { width: 64px; height: 24px; border: 1px solid #e3e6e8; box-sizing: border-box; }
+#contents .s3 { width: 124px; height: 24px; border: 1px solid #e3e6e8; box-sizing: border-box; }
+
+
+.last_tr input { position: relative; top: 2px; }
+.last_tr .last-txt1 { margin: 0 30px; }
+
+
+#contents .wrap .cellbtn { margin: 40px 0 150px; padding-top: 9px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 250px; height: 37px; background: #c41230; transition: all 0.5s; }
+#contents .wrap .cellbtn:hover { color: #fff; background: #6b0a1a; }
+
+

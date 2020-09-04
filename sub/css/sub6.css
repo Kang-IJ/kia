@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*공동으로 들어가는 것들*/
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+
+#contents .wrap .contwrap { margin: 0 auto; width: 1100px; overflow: hidden; }
+
+#contents .wrap .contwrap .list { float: left; margin: 34px 0 32px 0; color: #000; font-size: 25px; margin-left: 99px; }
+
+#contents .wrap .contwrap .news { border-top: 1px solid #e3e6e8; width: 100%; overflow: hidden;  }
+
+#contents .wrap .contwrap .news .news_cont { text-align: left; width: 1100px; overflow: hidden; padding: 50px 0 0 50px; }
+#contents .wrap .contwrap .news .news_cont li { float: left; width: 1000px; margin-bottom: 70px; position: relative; }
+#contents .wrap .contwrap .news .news_cont li a { color: #000; }
+#contents .wrap .contwrap .news .news_cont li img { float: left; transition: all 0.3s; }
+#contents .wrap .contwrap .news .news_cont li .txt2 { margin: 15px 0 25px; }
+#contents .wrap .contwrap .news .news_cont li .txt4 { margin-top: 40px; }
+#contents .wrap .contwrap .news .news_cont li:hover .txt4 { text-decoration: underline; }
+#contents .wrap .contwrap .news .news_cont li .box { width: 400px; height: 225px; display: inline-block; float: left; margin-right: 50px; overflow: hidden; }
+#contents .wrap .contwrap .news .news_cont li .box img { width: 400px; }
+
+
+#contents .wrap .contwrap .news .txt1 { font-size: 25px; font-weight: bold; }
+#contents .wrap .contwrap .news .txt2 { font-size: 13px; color: #888; }
+#contents .wrap .contwrap .news .txt3 { font-size: 15px; }
+#contents .wrap .contwrap .news .txt4 span { font-size: 13px; color: #c41230; }
+
+
+#contents .wrap .contwrap .news .news_cont li:hover img { transform: scale(1.05); opacity: 0.5; }
+
+
+#contents .wrap .contwrap .news .move_wrap { margin: 0 0 150px 420px; }
+#contents .wrap .contwrap .news .move_wrap li { float: left; }
+
+#contents .wrap .contwrap .news .move_wrap img { margin-top: 2px; }
+
+
+#contents .wrap .contwrap .news .move { font-size: 20px; font-weight: bold; float: left; }
+#contents .wrap .contwrap .news .move li { float: left; }
+
+#contents .wrap .contwrap .news .move li a { color: #000; margin-left: 30px; }
+#contents .wrap .contwrap .news .move li:last-child { margin-right: 30px; }
+#contents .wrap .contwrap .news .move li.active a  { color: #c41230; }
+
+
+
+
+
+
+
